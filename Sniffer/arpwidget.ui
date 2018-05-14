@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>arpwidget</class>
+ <widget class="QWidget" name="arpwidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>649</width>
+    <height>329</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ARP中间人攻击</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>631</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout" columnstretch="3,7,0">
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="host_mac">
+      <property name="text">
+       <string>a4:d1:8c:5f:26:ec</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="router_ip">
+      <property name="text">
+       <string>172.20.10.1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="host_ip">
+      <property name="text">
+       <string>172.20.10.12</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="router_mac">
+      <property name="text">
+       <string>ea:1e:e7:cc:f2:64</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>本机MAC</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>本机IP</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>目标MAC</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string>目标IP</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="target_mac">
+      <property name="text">
+       <string>28:c2:dd:27:8d:7d</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>网关MAC</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>网关IP</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="target_ip">
+      <property name="text">
+       <string>172.20.10.9</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>300</y>
+     <width>89</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>攻击</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
